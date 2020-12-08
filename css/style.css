@@ -1,0 +1,242 @@
+.header {
+  background-color: var(--primary);
+  padding: 4.5em 2em;
+  text-align: center;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.text-body {
+  font-size: 1.5em;
+}
+
+.title {
+  padding: 0.5em 0;
+  margin: 0;
+  font-size: 4em;
+  color: var(--textInPrimary);
+}
+
+.buttons {
+  padding: 1em 0;
+  text-align: center;
+}
+
+.button {
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  margin: 0.25em 0;
+  padding: 0.75em 1em;
+  position: relative;
+  transition: none;
+  background-color: var(--secondary);
+  color: var(--textInSecondary);
+  box-shadow: 0 4px var(--secondaryShadow);
+}
+
+.button:hover {
+  top: 2px;
+  box-shadow: 0 2px var(--secondaryShadow);
+  animation: none;
+}
+
+.button:active {
+  box-shadow: 0 0 var(--secondary);
+  top: 4px;
+}
+
+.labels {
+  text-align: center;
+}
+
+.label {
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  padding: 0.2em 1em;
+  position: relative;
+  transition: none;
+  background-color: var(--primary);
+  color: var(--textInPrimary);
+  box-shadow: 0 4px var(--primaryShadow);
+}
+
+.label:hover {
+  top: 2px;
+  box-shadow: 0 2px var(--primaryShadow);
+  animation: none;
+}
+
+.label:active {
+  box-shadow: 0 0 var(--primary);
+  top: 4px;
+}
+
+.footer {
+  padding: 1.5em;
+  background-color: var(--footerBackground);
+  color: var(--textInPrimary);
+}
+
+.footerNav {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: end;
+}
+
+.footerNav a:after {
+  content: '·';
+  color: var(--textInPrimary);
+  margin: 0 0.75em;
+}
+
+.footerNav a:last-child:after {
+  content: '';
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .footer,
+  .footerNav {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .madeWithLove,
+  .footerNav {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+.emoji {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: var(--cardBackground);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 var(--cardShadow);
+  flex: 1;
+  margin: 1em 0;
+  transition: all 0.25s ease-out;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px 0 var(--cardShadow);
+  transform: translateY(-1px);
+}
+
+@media (prefers-color-scheme: dark) {
+  .card:hover {
+    box-shadow: none;
+    background-color: #3b3b3b;
+  }
+}
+
+.card-header {
+  align-self: flex-start;
+  padding-top: 2em;
+  padding-bottom: 0.85em;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-color: #fff;
+}
+
+.card-title {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.gitmoji {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 5em;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji',
+    'Segoe UI Symbol', 'Android Emoji', 'EmojiSymbols';
+}
+
+.gitmoji:hover {
+  animation-name: bounce;
+  animation-duration: 0.5s;
+}
+
+.gitmoji-code {
+  border-radius: 4px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.gitmoji-info {
+  padding: 1.5em;
+  word-break: break-all;
+  color: var(--emojiCodeText);
+}
+
+.gitmoji-info p {
+  color: var(--cardText);
+  word-break: normal;
+}
+
+@media (max-width: 768px) {
+  .gitmoji {
+    font-size: 50px;
+  }
+
+  .card-header {
+    padding-bottom: 1em;
+  }
+}
+
+.speech-balloon {
+  background-color: #ffdd67;
+}
+
+.bento {
+  background-color: #ff5864;
+}
+
+.headphone {
+  background-color: #23b4d2;
+}
+
+.department-store {
+  background-color: #c5e763;
+}
+
+.tech-stacks {
+  text-align: center;
+}
+
+.tech-stack {
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  padding: 0.1em 1em;
+  position: relative;
+  transition: none;
+  border: 1px solid #ffffff8f;
+  box-shadow: 0 4px #ffffff8f;
+}
+
+.tech-stack:hover {
+  top: 2px;
+  box-shadow: 0 2px #ffffff8f;
+  animation: none;
+}
+
+.tech-stack:active {
+  box-shadow: 0 0 #ffffff8f;
+  top: 4px;
+}
