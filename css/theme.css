@@ -9,13 +9,14 @@
       --textInSecondary: #ffffff;
       --footerBackground: #ffdd67;
       --cardBackground: #ffffff;
-      --cardText: #999999;
+      --cardText: #6b6b6b;
       --emojiCodeText: #000000;
       --cardShadow: rgba(168, 182, 191, 0.6);
       --notificationText: #ffffff;
       --notificationShadow: rgba(0, 0, 0, 0.05);
       --notificationEmojiCodeColor: rgba(0, 0, 0, 0.85);
       --menuBackground: #ff5a79;
+      --techStack: #6b6b6b;
     }
   }
   
@@ -37,6 +38,7 @@
       --notificationShadow: rgba(0, 0, 0, 0.05);
       --notificationEmojiCodeColor: rgba(0, 0, 0, 0.85);
       --menuBackground: #ff5a79;
+      --techStack: #ffffff8f;
     }
   
     body {

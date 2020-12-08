@@ -149,11 +149,10 @@
   padding-bottom: 0.85em;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-  background-color: #fff;
 }
 
 .card-title {
-  color: #fff;
+  color: var(--cardText);
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -226,17 +225,17 @@
   padding: 0.1em 1em;
   position: relative;
   transition: none;
-  border: 1px solid #ffffff8f;
-  box-shadow: 0 4px #ffffff8f;
+  border: 1px solid var(--techStack);
+  box-shadow: 0 4px var(--techStack);
 }
 
 .tech-stack:hover {
   top: 2px;
-  box-shadow: 0 2px #ffffff8f;
+  box-shadow: 0 2px var(--techStack);
   animation: none;
 }
 
 .tech-stack:active {
-  box-shadow: 0 0 #ffffff8f;
+  box-shadow: 0 0 var(--techStack);
   top: 4px;
 }
